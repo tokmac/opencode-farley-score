@@ -1,0 +1,44 @@
+{
+  "name": "opencode-farley-score",
+  "version": "1.0.0",
+  "description": "Test quality assessment using Dave Farley's 8 Properties of Good Tests — OpenCode plugin",
+  "type": "module",
+  "main": "index.js",
+  "bin": {
+    "opencode-farley-score": "./bin/install.js"
+  },
+  "files": [
+    "bin/",
+    ".opencode/",
+    "test/",
+    "examples/",
+    "README.md",
+    "LICENSE",
+    "CHANGELOG.md"
+  ],
+  "dependencies": {
+    "@clack/prompts": "^1.5.1"
+  },
+  "scripts": {
+    "test": "node test/smoke.test.js"
+  },
+  "keywords": [
+    "opencode",
+    "opencode-plugin",
+    "test-quality",
+    "farley-score",
+    "dave-farley",
+    "testing",
+    "code-quality"
+  ],
+  "author": "Lyubomir Mitkov",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tokmac/opencode-farley-score.git"
+  },
+  "bugs": {
+    "url": "https://github.com/tokmac/opencode-farley-score/issues"
+  },
+  "homepage": "https://github.com/tokmac/opencode-farley-score#readme"
+}
