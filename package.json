@@ -1,11 +1,11 @@
 {
-  "name": "opencode-farley-score",
+  "name": "@tokmac/opencode-farley-score",
   "version": "1.0.0",
   "description": "Test quality assessment using Dave Farley's 8 Properties of Good Tests — OpenCode plugin",
   "type": "module",
   "main": "index.js",
   "bin": {
-    "opencode-farley-score": "./bin/install.js"
+    "@tokmac/opencode-farley-score": "./bin/install.js"
   },
   "files": [
     "bin/",

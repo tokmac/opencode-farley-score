@@ -91,7 +91,7 @@ Detects signals in your tests:
 ### One-Command Install
 
 ```bash
-npx opencode-farley-score install
+npx @tokmac/opencode-farley-score install
 ```
 
 The installer runs interactively and asks:
@@ -119,13 +119,13 @@ Restart OpenCode or run `/reload-plugins` to load the plugin.
 
 ### Verify
 ```bash
-npx opencode-farley-score verify
+npx @tokmac/opencode-farley-score verify
 ```
 Checks that files are in the right place and commands are registered.
 
 ### Uninstall
 ```bash
-npx opencode-farley-score uninstall
+npx @tokmac/opencode-farley-score uninstall
 ```
 Shows exactly what will be removed, asks for confirmation, cleans up safely. Won't touch other plugins or commands.
 
