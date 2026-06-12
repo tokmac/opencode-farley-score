@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 /**
  * Farley Score Plugin — Clack Interactive Installer
- * Usage: npx farley-score install
+ * Usage: npx @tokmac/opencode-farley-score install
  */
 
 import fs from "fs";
@@ -312,7 +312,7 @@ function verify() {
 
   if (!projectInstalled && !globalInstalled) {
     log.error("No installation found");
-    log.info("Run: npx farley-score install");
+    log.info("Run: npx @tokmac/opencode-farley-score install");
     process.exit(1);
   }
 
@@ -346,7 +346,7 @@ async function uninstall() {
 
   if (!hasProject && !hasGlobal) {
     log.error("Farley Score Plugin is not installed");
-    log.info("Run: npx farley-score install");
+    log.info("Run: npx @tokmac/opencode-farley-score install");
     process.exit(1);
   }
 
@@ -464,9 +464,9 @@ if (command === "install" || command === undefined) {
   intro("⚡ Farley Score Plugin for OpenCode");
   log.info("Test quality assessment using Dave Farley's 8 Properties");
   log.step("Usage:");
-  log.info("  npx farley-score install     Install (interactive)");
-  log.info("  npx farley-score uninstall   Remove (interactive)");
-  log.info("  npx farley-score verify      Verify installation");
+  log.info("  npx @tokmac/opencode-farley-score install     Install (interactive)");
+  log.info("  npx @tokmac/opencode-farley-score uninstall   Remove (interactive)");
+  log.info("  npx @tokmac/opencode-farley-score verify      Verify installation");
   outro("");
   process.exit(1);
 }
