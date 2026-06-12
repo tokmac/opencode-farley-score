@@ -1,0 +1,7 @@
+{
+  "name": "farley-score",
+  "version": "1.0.0",
+  "description": "Test quality assessment using Dave Farley's 8 Properties of Good Tests",
+  "type": "module",
+  "dependencies": {}
+}
